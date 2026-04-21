@@ -1,5 +1,6 @@
-import { Pressable, Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 import { colors, typography, spacing, radius } from '@/lib/tokens';
+import AnimatedPressable from './AnimatedPressable';
 
 interface PillarCardProps {
   icon: string;
@@ -10,16 +11,13 @@ interface PillarCardProps {
 
 export default function PillarCard({ icon, name, status, onPress }: PillarCardProps) {
   return (
-    <Pressable
-      onPress={onPress}
-      style={({ pressed }) => [styles.card, pressed && styles.cardPressed]}
-    >
+    <AnimatedPressable onPress={onPress} style={styles.card}>
       <View style={styles.header}>
         <Text style={styles.icon}>{icon}</Text>
         <Text style={styles.name}>{name}</Text>
       </View>
       <Text style={styles.status}>{status}</Text>
-    </Pressable>
+    </AnimatedPressable>
   );
 }
 
@@ -31,10 +29,6 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.base,
     marginBottom: spacing.sm,
-  },
-  cardPressed: {
-    transform: [{ scale: 0.98 }],
-    opacity: 0.9,
   },
   header: {
     flexDirection: 'row',

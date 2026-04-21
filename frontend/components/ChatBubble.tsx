@@ -1,4 +1,5 @@
 import { View, Text, StyleSheet } from 'react-native';
+import Animated, { FadeInUp } from 'react-native-reanimated';
 import { colors, typography, spacing, radius } from '@/lib/tokens';
 
 interface ChatBubbleProps {
@@ -10,13 +11,16 @@ export default function ChatBubble({ role, content }: ChatBubbleProps) {
   const isUser = role === 'user';
 
   return (
-    <View style={[styles.row, isUser && styles.rowUser]}>
+    <Animated.View
+      entering={FadeInUp.duration(300).springify().damping(18)}
+      style={[styles.row, isUser && styles.rowUser]}
+    >
       <View style={[styles.bubble, isUser ? styles.bubbleUser : styles.bubbleMilli]}>
         <Text style={[styles.text, isUser ? styles.textUser : styles.textMilli]}>
           {content}
         </Text>
       </View>
-    </View>
+    </Animated.View>
   );
 }
 

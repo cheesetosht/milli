@@ -1,4 +1,5 @@
 import { View, Text, StyleSheet, ScrollView, Pressable } from 'react-native';
+import Animated, { FadeInUp } from 'react-native-reanimated';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { colors, typography, spacing } from '@/lib/tokens';
@@ -63,14 +64,15 @@ export default function HomeScreen() {
         </Pressable>
 
         {/* Pillar cards */}
-        {PILLARS.map((p) => (
-          <PillarCard
-            key={p.key}
-            icon={p.icon}
-            name={p.name}
-            status={pillarData?.[p.key]?.status ?? 'complete onboarding to see insights'}
-            onPress={() => router.push(`/pillar/${p.key}`)}
-          />
+        {PILLARS.map((p, i) => (
+          <Animated.View key={p.key} entering={FadeInUp.duration(400).delay(100 * i)}>
+            <PillarCard
+              icon={p.icon}
+              name={p.name}
+              status={pillarData?.[p.key]?.status ?? 'complete onboarding to see insights'}
+              onPress={() => router.push(`/pillar/${p.key}`)}
+            />
+          </Animated.View>
         ))}
       </ScrollView>
     </SafeAreaView>

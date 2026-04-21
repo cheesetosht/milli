@@ -1,6 +1,7 @@
-import { Pressable, Text, StyleSheet } from 'react-native';
+import { Text, StyleSheet } from 'react-native';
 import * as Haptics from 'expo-haptics';
 import { colors, typography, radius, spacing } from '@/lib/tokens';
+import AnimatedPressable from './AnimatedPressable';
 
 interface GoalCardProps {
   title: string;
@@ -16,13 +17,13 @@ export default function GoalCard({ title, description, selected, onPress }: Goal
   };
 
   return (
-    <Pressable
+    <AnimatedPressable
       onPress={handlePress}
       style={[styles.card, selected && styles.cardSelected]}
     >
       <Text style={[styles.title, selected && styles.titleSelected]}>{title}</Text>
       <Text style={[styles.desc, selected && styles.descSelected]}>{description}</Text>
-    </Pressable>
+    </AnimatedPressable>
   );
 }
 

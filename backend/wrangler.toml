@@ -1,0 +1,9 @@
+name = "milli-api"
+main = "src/index.ts"
+compatibility_date = "2025-04-21"
+
+[vars]
+LLM_PROVIDER = "groq"
+
+# LLM_API_KEY should be set as a secret:
+# bunx wrangler secret put LLM_API_KEY

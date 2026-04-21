@@ -1,0 +1,9 @@
+node_modules/
+.expo/
+dist/
+.DS_Store
+*.tsbuildinfo
+.env
+.env.local
+.wrangler/
+.claude/

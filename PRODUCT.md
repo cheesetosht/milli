@@ -6,6 +6,7 @@ The amount of effort that goes into women's wellbeing is often undermined. The w
 - Women experience higher cortisol response to fasted, high-intensity workouts
 - For women, caloric intake requires an increase of 100-300 kcal during the luteal phase. Carbohydrate intake must increase pre-workout during the luteal phase to offset the body's shift toward fat oxidation. While for men, daily caloric and macronutrient targets remain static. Fasting windows (16:8) can be executed daily.
 - For women with PCOS, weight loss is resistant to simple caloric deficits. They also need higher protein/fiber ratios to manage insulin resistance.
+- Hormonal issues don't only trouble women with PCOS/PCOD, it's a very common struggle for a lot of women. General well-being takes more effort for women than men. Especially when there are 2 hormones working against them, at times impairing their ability to even reason about what's happening with them.
 
 Compared to male biology, there are a lot more interdependencies & complexities in females. Hence, it becomes important to build a product to help women not only track but also take meaningful insight-based actions to cater to the complex clockwork of their body.
 
@@ -22,6 +23,7 @@ Compared to male biology, there are a lot more interdependencies & complexities 
 - Apps like apple health provide the ability to "log" things but logging each & every metric manually is a lot of effort
 - Apple has rings that you can set manually at a daily level (based on vibes). This is simple consistency loop, that works for most men. How many calories I should burn is affected a lot by the amount of rest I got, what you ate, which phase you are in, your cortisol levels & a lot of subjective things
 - Eg: My calorie app doesn't know that I am in luteal phase but it still asks me to stay in a 600 cal deficit. Apple watch shows me a 600 cal move goal even on my periods/sick days. My cycle tracking app doesn't know that I had a stressful month and this months periods might get delayed (PCOS/PCOD-specific).
+The core insight is that female biology has interdependencies that no single-axis tracker captures
 
 # Enter "milli" - unlock peak female performance
 
@@ -68,6 +70,3 @@ A replacement for a nutritionist or a fitness trainer or a doctor.
 
 - The brand "Basic Woman" created a category by making hormonal balance teas that really help with hormonal regulation. Women with PCOS/PCOD or other hormonal issues are willing to spend upto ₹1500/month
 - People already spend a lot of time talking to AI assistants like claude, chatgpt, gemini, etc. trying to figure these things out despite it's inaccuracy due to lack of context
-
-
-d5b0ac,cea0ae,684551,402e2a,9cd08f

@@ -1,13 +1,10 @@
-import { Hono } from 'hono';
-import { cors } from 'hono/cors';
-import { chat } from './routes/chat';
+import { Hono } from "hono";
+import { cors } from "hono/cors";
 
 const app = new Hono();
 
-app.use('*', cors());
+app.use("*", cors());
 
-app.get('/health', (c) => c.json({ status: 'ok' }));
-
-app.route('/chat', chat);
+app.get("/health", (c) => c.json({ status: "ok" }));
 
 export default app;

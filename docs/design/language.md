@@ -53,3 +53,49 @@ The user is sharing intimate data — cycle details, mood, stress, gut health, b
 - **Trust through restraint**: the app doesn't oversell, doesn't celebrate trivially, earns credibility by being specific and right
 - **Safety through warmth**: not clinical sterility, but the comfort of a space designed with care — you feel comfortable sharing because the environment respects what you're sharing
 - **Quiet awareness**: the app notices patterns without dramatizing them. It meets you where you are without making a scene about getting there
+
+
+## DNA
+
+### Core Tensions
+
+The opposing forces milli holds in balance. The balance point between these opposites is where the language's character lives.
+
+**1. Rigorous yet alive**
+Data, structure, and editorial precision — expressed through organic shapes, warm tones, and natural rhythm. The grid exists, but it breathes. Charts are accurate, but they feel like living things. This is the master tension. It governs everything.
+
+**2. Knowing yet gentle**
+The app is often smarter than you about what's happening in your body. It could be clinical about that. Instead, it leads with awareness and lets you come to the conclusion. It highlights "your luteal phase started" without adding "so stop doing HIIT." The intelligence is visible, the prescription is soft.
+
+**3. Feminine yet ungendered**
+Warmth, organic form, sensory richness — all feminine qualities expressed through material choices, never through stereotypical signifiers. A man looking at this app wouldn't think "this isn't for me" because of pink. He'd think "this isn't for me" because of what it *does*. The femininity is structural, not decorative.
+
+**4. Intimate yet capable**
+This is your journal, your body, your private data — the app respects that intimacy. But it's also a sharp, competent system that processes complex interdependencies. A doctor who remembers your name and your last conversation, not just your chart. Warmth and competence in the same breath.
+
+### Space Philosophy
+
+Space in milli is **breathing room with purpose**. Not minimal-for-minimal's-sake emptiness (cold). Not dense information packing (overwhelming for the curious-but-overwhelmed user). The Plume approach: a considered space where every element has earned its place.
+
+Space *increases* around important moments — a key metric, a phase transition, an insight from the companion. Space *decreases* when information is related and should be read as a group (nutrient breakdown, weekly trend). The rhythm of open-and-dense is how the app communicates hierarchy without shouting.
+
+**The amount of space around something tells you how much attention it deserves.**
+
+### Hierarchy Logic
+
+**The body leads, the mind follows.**
+
+- **Primary — State:** Where you are right now. Cycle phase, today's energy, the single most important thing. The golden hour moment — warm, present, immediate. Large, confident typography. Breathing room.
+- **Secondary — Pattern:** What the data reveals over time. Trends, correlations, the companion's insights. The editorial voice — serif, structured, information-rich. Moderate density.
+- **Tertiary — Action:** What to do about it. Suggestions, goals, log entries. The coach — clear, specific, uncluttered. Compact but never crowded.
+
+The eye moves: **feel first, understand second, act third.**
+
+### Proportional Signature
+
+milli's proportions favor **generous vertical rhythm with contained horizontal width**. Content cards don't stretch edge-to-edge — they sit within the warm ground with visible margin, like objects placed on a surface rather than painted on a wall. Journal on a table, not app on a screen.
+
+- **Type scale jumps are dramatic** — the difference between a primary number (today's score, cycle day) and body text is unmissable, not incremental. The important number commands the space.
+- **Cards have generous internal padding** — content breathes within its container. Nothing touches the edges.
+- **Vertical spacing is rhythmic, not uniform** — related items cluster, unrelated items separate. The spacing pattern itself communicates grouping.
+- **Warm shadow on cream, not borders** — borders are too rigid for "rigorous yet alive." Elevation is expressed through soft shadow on the warm ground.
